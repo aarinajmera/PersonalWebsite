@@ -1,0 +1,535 @@
+@font-face {
+    font-family: "SFPRODISPLAYBOLD";
+    src: url("SFPRODISPLAYBOLD.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "SFPRODISPLAYREGULAR";
+    src: url("SFPRODISPLAYREGULAR.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SFPRODISPLAYMEDIUM";
+    src: url("SFPRODISPLAYMEDIUM.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "SFPRODISPLAYSEMIBOLD";
+    src: url("SFPRODISPLAYSEMIBOLD.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+form{
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+
+form input, form textarea{
+
+border: 0;
+margin: 10px 0px;
+padding: 20px;
+outline: none;
+background-color: white;
+border-radius: 5px;
+font-size: 16px;
+
+
+}
+
+form button{
+
+    padding: 15px;
+    background: #95baf7;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 150px;
+    margin: 20px auto 0;
+
+}
+
+
+body{
+
+    background-color: black;
+    z-index: 0;
+
+}
+
+.navbar{
+
+    z-index: 1;
+    padding: 0.9% 6%;
+    background-color: black;
+    
+
+}
+
+h1{
+
+    font-family: "SFPRODISPLAYBOLD";
+    margin-bottom: 6%;
+    color: white;
+    font-size: 5vw;
+}
+
+h2{
+
+    font-family: "SFPRODISPLAYMEDIUM";
+    color: black;
+    font-size: 3.6vw;
+
+}
+
+h4{
+
+    font-family: "SFPRODISPLAYMEDIUM";
+    /*font-size: 2.4vw;*/
+    color: #95baf7;
+
+}
+
+
+
+hr{
+
+    border: 3px solid white;
+    margin: 0;
+    opacity: 100%;
+
+}
+
+
+.navimg{
+
+    margin-right: 5px;
+
+}
+
+.nav-link{
+
+    transition: 1s ease;
+    
+    -webkit-filter: brightness(120%);
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+
+}
+
+
+
+
+.img-fluid{
+
+    max-width: 50%;
+    height: 100%;
+
+}
+
+
+
+.nav-link:hover{
+
+    -webkit-filter: brightness(70%);
+    
+
+        
+}
+
+
+
+.navbar-brand{
+
+    transition: 1s ease;
+    -webkit-filter: brightness(120%);
+    padding-top: 0;
+    padding-bottom: 0px;
+    
+    
+
+    height: 9.5541%;
+    width: 77%;
+    min-width: 50%;
+
+
+}
+
+.navbar-brand:hover{
+
+
+
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+   
+}
+
+
+
+.homepage{
+
+    padding-bottom: 12%;
+    padding-top: 17%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: black;
+
+}
+
+.container-fluid{
+
+    padding-left: 15%;
+    padding-right: 15%;
+ 
+    background-color: #95baf7;
+
+}
+
+.aboutsemihead{
+
+    font-size: 3.3vw;
+    text-align: center;
+
+}
+
+.aboutmetext{
+
+    font-family: "SFPRODISPLAYSEMIBOLD";
+    padding-top: 20%;
+    font-size: 5vw;
+    color: black;
+
+
+}
+
+.aboutcontent{
+
+    font-size: 1.6vw;
+    font-family: "SFPRODISPLAYREGULAR";
+    color: black;
+
+}
+
+.navbar-toggler{
+
+    border-color: transparent;
+    color: transparent;
+
+
+}
+
+.chevron{
+
+    color: white;
+
+
+}
+
+
+
+.footcopyright{
+
+    
+    font-family: "SFPRODISPLAYREGULAR";
+    color: white;
+
+}
+
+.row>*{
+
+    width: 100%;
+
+}
+
+.socials-links{
+
+background-color: black;
+
+}
+
+.socialmediaicons{
+
+    transition: 1s ease;
+
+}
+
+.socialmediaicons:hover{
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+
+}
+
+.col2h1{
+
+    color: #95baf7;
+
+}
+
+.workpage{
+
+    background-color: white;
+
+}
+
+.uphr, .downhr{
+
+    border: 3px solid black;
+
+}
+
+.worktext{
+
+    font-family: "SFPRODISPLAYSEMIBOLD";
+    padding-top: 20%;
+    font-size: 5vw;
+    color: #95baf7;
+
+}
+
+.contacttext{
+
+    font-family: "SFPRODISPLAYSEMIBOLD";
+    padding-top: 20%;
+    font-size: 5vw;
+    color: white;
+
+}
+
+.contactformtext{
+
+    font-family: "SFPRODISPLAYSEMIBOLD";
+    color: white;
+    font-size: 18px;
+
+}
+
+.contactfluidpage{
+
+    padding-top: 10%;
+
+}
+
+.submitbutton{
+
+    background-color: black;
+    border-radius: 3px;
+    border: none;
+    margin: 3px;
+
+}
+
+.card{
+
+    width: 18rem; 
+    margin-right: 30px; 
+    margin-bottom: 30px; 
+    justify-content: center; 
+    background-color: #95baf7; 
+    color: white;
+
+}
+
+.card-img-top{
+
+    width: 200px;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    border-radius: var(--bs-border-radius)!important;
+    display: block!important;
+
+    /* rounded mx-auto d-block */
+
+}
+
+
+@media (min-width: 214px) and (max-width: 800px) {
+
+    form{
+
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    
+    }
+    
+    form input, form textarea{
+    
+    border: 0;
+    margin: 10px 30px;
+    padding: 20px;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    
+    }
+    
+    form button{
+    
+        padding: 15px;
+        background: #95baf7;
+        color: white;
+        font-size: 15px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 100px;
+        margin: 10px auto 10px;
+    
+    }
+
+
+
+    .container-fluid{
+
+        padding-left: 0%;
+        padding-right: 0%;
+
+    }
+
+    .footcopyright{
+
+        font-size: 10px;
+        font-family: "SFPRODISPLAYREGULAR";
+        color: white;
+    
+    }
+
+    .card{
+
+        width: 260px;
+        height: 600px;
+        margin-left: 30px;
+     
+    }
+
+    .card-img-top{
+    
+       display: none;
+       width: 0;
+       
+
+    }
+
+    .card-title{
+
+        font-size: 1.8rem;
+        text-align: center;
+        
+
+    }
+
+    .card-text{
+
+        font-size: 0.9rem;
+        
+
+    }
+
+    .worktext{
+
+        font-family: "SFPRODISPLAYSEMIBOLD";
+        padding-top: 25%;
+        font-size: 2rem;
+        color: #95baf7;
+    
+    }
+
+    .aboutmetext {
+        font-family: "SFPRODISPLAYSEMIBOLD";
+        padding-top: 25%;
+        font-size: 2rem;
+        color: black;
+    }
+
+    .aboutcontent{
+
+        font-size: 0.8rem;
+        font-family: "SFPRODISPLAYREGULAR";
+        color: black;
+        text-align: left;
+        padding-left: 10%;
+        padding-right: 10%;
+    
+    }
+
+    .aboutsemihead{
+
+        font-size: 1.5rem;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    
+    }
+    
+    .homepage {
+    padding-bottom: 50%;
+    padding-top: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: black;
+
+    
+    }
+
+    .col2h1{
+
+        color: #95baf7;
+        font-size: 1.9rem;
+    
+    }
+
+   .img-fluid{
+
+    max-width: 110%;
+
+   }
+
+   .navbar{
+
+    z-index: 1;
+    padding-bottom: 6%;
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: black;
+    
+    }
+    
+    
+}
+
+/* ❖ */
